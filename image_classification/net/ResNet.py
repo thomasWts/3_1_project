@@ -2,20 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-class Three_Layer_Network(nn.Module):
-    def __init__(self):
-        super(Three_Layer_Network, self).__init__()
-        self.fc1 = nn.Linear(3*224*224, 128)
-        self.fc2 = nn.Linear(128, 64)
-        self.fc3 = nn.Linear(64, 5)
-
-    def forward(self, x):
-        x = x.reshape(x.size(0), -1) # flatten
-        x = F.relu(self.fc1(x))
-        x = F.relu(self.fc2(x))
-        x = self.fc3(x)
-        return x
-
 class ResBlk(nn.Module):
     def __init__(self, ch_in, ch_out, stride=1):# stride控制是否降采样
         super(ResBlk, self).__init__()
@@ -68,6 +54,8 @@ class ResNet18(nn.Module):
 
 
 if __name__ == '__main__':
+    from ThreeLayerNetwork import Three_Layer_Network
+    
     model = Three_Layer_Network()
     print(model)
     sample_input = torch.randn(2, 3, 224, 224)

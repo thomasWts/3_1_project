@@ -1,0 +1,7 @@
+torch>=1.8.0
+torchvision>=0.9.0
+d2l>=0.17.0
+Pillow>=8.0.0
+numpy>=1.19.0
+matplotlib>=3.3.0
+jupyter>=1.0.0

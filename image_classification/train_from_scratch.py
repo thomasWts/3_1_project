@@ -3,7 +3,8 @@ from torch import nn, optim
 from d2l import torch as d2l
 import torchvision
 # from torchvision.models import resnet18 as ResNet18
-from net.ResNet import ResNet18, Three_Layer_Network
+from net.ResNet import ResNet18
+from net.ThreeLayerNetwork import Three_Layer_Network
 
 def evaluate(model, val_iter, device):
     correct, total = 0, len(val_iter.dataset)
