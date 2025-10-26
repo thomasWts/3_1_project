@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Model files (too large for Git)
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.h5
+*.hdf5
+
+# Data directories
+data/ImageNet-data/
+data/imagenetood/
+data/tiny-imagenet-200/
+data/FashionMNIST/
+
+# Checkpoints
+checkpoints/
+*/checkpoints/
+
+# Results
+results/
+*/results/

@@ -27,7 +27,7 @@
 |-------------|----------|------|
 | Bulbasaur (妙蛙种子) | ![Bulbasaur](data/pokemon/bulbasaur/00000000.png) | 草系宝可梦，背上有球根 |
 | Charmander (小火龙) | ![Charmander](data/pokemon/charmander/00000000.png) | 火系宝可梦，尾巴有火焰 |
-| Mewtwo (超梦) | ![Mewtwo](data/pokemon/mewtwo/00000000.png) | 超能力系传说宝可梦 |
+| Mewtwo (超梦) | ![Mewtwo](data/pokemon/mewtwo/00000000.jpg) | 超能力系传说宝可梦 |
 | Pikachu (皮卡丘) | ![Pikachu](data/pokemon/pikachu/00000000.png) | 电系宝可梦，招牌角色 |
 | Squirtle (杰尼龟) | ![Squirtle](data/pokemon/squirtle/00000000.png) | 水系宝可梦，有龟壳 |
 
